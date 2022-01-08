@@ -1,5 +1,6 @@
 local Diamond = {
 200547759,
+2876067334,
 }
 
 local cucumber = {
@@ -20,14 +21,17 @@ local iscool = {
 
 local Heart = {
 2577863211,
+2876067334,
 }
 
 local Crown = { -- 👑
 2203859765,
+2876067334,
 }
 
 local Lighting = { --⚡
 2385413377,
+2876067334,
 }
 
 local Ghost = { --👻
@@ -36,10 +40,12 @@ local Ghost = { --👻
 
 local Lu = {
 30759115,
+2876067334,
 }
 
 local Ke = {
 969017656,
+2876067334,
 }
 
 
