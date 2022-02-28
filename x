@@ -27,6 +27,8 @@ local Heart = {
 local Crown = { -- 👑
 2203859765,
 2876067334,
+2369320991,
+2409533825,
 }
 
 local Lighting = { --⚡
@@ -63,6 +65,8 @@ ModIDS = {
 2369320991,
 2876067334,
 2876067334,
+2409533825,
+2369320991,
 }
 
 --\\ Don't mess with anything below this
