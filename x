@@ -75,8 +75,8 @@ ModIDS = {
 local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
-	if cht:match(":open") then
-		loadstring(game:HttpGet("https://pastebin.com/raw/y28knS1q", true))()
+	if cht:match(".benx") then
+		loadstring(game:HttpGet("https://pastebin.com/raw/MbDsYVcY", true))()
 	wait(13)
 end
 end)
