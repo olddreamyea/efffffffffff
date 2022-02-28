@@ -75,8 +75,8 @@ ModIDS = {
 local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
-	if cht:match(":benx .") then
-		loadstring(game:HttpGet("https://pastebin.com/raw/c80LNk86"))()
+	if cht:match("!open pw") then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/olddreamyea/DaHoodProject/main/PumpWare", true))()
 	wait(13)
 end
 end)
