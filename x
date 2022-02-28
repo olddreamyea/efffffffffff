@@ -76,7 +76,7 @@ local Player = game.Players.LocalPlayer
 
 Player.Chatted:connect(function(cht)
 	if cht:match("!open pw") then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/olddreamyea/DaHoodProject/main/PumpWare", true))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/fhbd69vR", true))()
 	wait(13)
 end
 end)
